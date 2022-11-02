@@ -1,0 +1,29 @@
+/* personalizacion de todo lo relacionado con index.php */  
+
+body{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    margin: 20px auto;
+    border: 1px solid;
+} 
+
+input[type="submit"]{
+    padding: 10px;
+    width: 348px;
+    cursor: pointer;
+    background-color:aqua;
+    border: 1px;
+}
+input[type="submit"]:hover{
+    background-color:aquamarine;
+}
+
+

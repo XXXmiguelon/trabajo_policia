@@ -1,0 +1,77 @@
+/* lista de los registrados*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;  
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color:skyblue;
+    align-items: center;
+    padding-left: 1110px;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    color: black;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/*       buscador  y boton     */
+.formbuscador{
+    background: initial;
+    margin: 10px;
+    border-radius: 10px;
+}
+.botonbuscar{
+    background: #28acf8;
+    color: black;
+    padding: 5px 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.botonbuscar:hover{
+    background: #105a85;
+}
+
+.volver{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tabla{
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    color: black;
+    width: 100%;
+}
+
+.tabla th{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    background:turquoise;
+}
+
+.tabla td{
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    color: black;
+}

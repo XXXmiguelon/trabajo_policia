@@ -1,0 +1,22 @@
+/* personalizacion de cabecera de pagina principal   */  
+
+header{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;  
+    height: 70px;
+    background-color: aqua;
+    align-items: center;
+    padding-left: 1110px;
+}
+
+body{
+    margin: 0;
+}
+
+nav a{
+    text-decoration:  none;
+    padding: 10px;
+    font-weight: 600;
+    color: black;
+}
+

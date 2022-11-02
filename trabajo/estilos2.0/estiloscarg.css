@@ -1,0 +1,56 @@
+/* personalizacion de todo lo relacionado con cargar.php */  
+header{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;  
+    height: 70px;
+    background-color:blanchedalmond;
+    align-items: center;
+    padding-left: 1110px;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    color: black;
+}
+
+body{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;  
+    background-image: url('fondo1.jpg');
+}
+input[type="text"], input[type="dni"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    margin: 20px auto;
+    border: 1px solid;
+
+} 
+
+input[type="submit"]{
+    padding: 10px;
+    width: 348px;
+    cursor: pointer;
+    background-color:aqua;
+    border: 1px;
+}
+input[type="submit"]:hover{
+    background-color:aquamarine;
+}
+h1.bien {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+h1.mal{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
